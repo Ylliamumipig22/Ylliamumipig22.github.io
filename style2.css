@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image:url(solid-pastel-blue-fabric_large.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar
+{
+    background: rgb(0,0,0,0.1);
+    height: 80px;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu li a:hover{
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+
+.welcome{
+    position:absolute;
+    font-family: sans-serif;
+    color:#fff;
+    top: 90px;
+    
+}
+
+.welcome h1{
+    font-size: 42px;
+    margin: 25px;
+}
+
+.button {
+  background-color: #4CA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
