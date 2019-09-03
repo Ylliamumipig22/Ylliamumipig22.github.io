@@ -5,18 +5,18 @@
 }
 header
 {
-    background-image:url(solid-pastel-blue-fabric_large.jpg);
+    background-image:url(solid-pastel-blue-fabric_large.jpg); /*changing the background of my website and adjusting its size and position */
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-
-.nav-bar
+/* changing color of nav bar */
+.nav-bar                                        
 {
     background: rgb(0,0,0,0.1);
     height: 80px;
 }
-
+/* changing positioning of nav bar to the right side of page */
 .menu{
     float: right;
     list-style: none;
@@ -27,8 +27,8 @@ header
     display: inline-block;
     margin: 10px 5px;
 }
-
-.menu li a{
+/* changing font and color for text in nav bar*/
+.menu li a{ 
     text-decoration: none;
     color: antiquewhite;
     padding: 5px 10px;
@@ -43,7 +43,7 @@ header
     color: #000;
 }
 
-.welcome{
+.welcome{ /* aligning text and changing font for middle text */
     position: relative;
     text-align: center ;
     font-family: sans-serif;
